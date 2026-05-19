@@ -127,19 +127,6 @@ streamlit run app/app.py
 ```
 Open `http://localhost:8501` in your browser.
 
----
-
-## Future Improvements
-
-- [ ] Add SHAP explainability for individual predictions
-- [ ] Integrate XGBoost and Logistic Regression into the app as selectable models
-- [ ] Add batch prediction via CSV upload
-- [ ] Deploy to AWS (EC2 / Elastic Beanstalk) or Streamlit Cloud
-- [ ] Connect Power BI dashboard via REST API
-- [ ] Add unit tests with `pytest`
-
----
-
 ## Dataset
 
 **IBM Telco Customer Churn** — publicly available on [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn).  
