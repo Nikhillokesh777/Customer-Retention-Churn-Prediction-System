@@ -14,7 +14,7 @@ def train():
 
 def run_app():
     print("Launching Streamlit dashboard...")
-    subprocess.run(["streamlit", "run", "app/app.py"], check=True)
+    subprocess.run([sys.executable, "-m", "streamlit", "run", "app/app.py"], check=True)
 
 
 if __name__ == "__main__":
